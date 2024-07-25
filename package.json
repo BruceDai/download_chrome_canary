@@ -1,0 +1,19 @@
+{
+  "name": "nightly_download_canary",
+  "version": "1.0.0",
+  "description": "Nightly download Chrome build",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "keywords": [
+    "chrome"
+  ],
+  "author": "BruceDai",
+  "license": "ISC",
+  "dependencies": {
+    "node-scp": "^0.0.23",
+    "nodejs-file-downloader": "^4.12.1",
+    "puppeteer-core": "^22.6.5"
+  }
+}
